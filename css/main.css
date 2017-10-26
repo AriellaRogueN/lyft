@@ -1,3 +1,260 @@
-/*
- * Estilos de tu proyecto
- */
+*{
+    margin:0;
+    padding:0;
+}               /*quito los margenes por defecto que entrega el navegador*/
+                        
+body{        /*Agrego fuente quese utilizara en todo el documento*/
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+/* Doy posicion al header para que quede fijo
+aplico fondo transparente para que quede igual
+a la imagen de fondo*/
+header {                     
+    position: fixed;
+    width:100% ;
+    height:auto;
+    background: transparent;
+    z-index:3 ;
+    
+}
+/*ajusto tamano del logo*/
+.logo img{ 
+    width:64px;
+    height:44.8px;
+    margin-left: 50px;
+    padding: 40px;  
+}
+ 
+header nav{               /*Doy caracteristicas a la barra
+                            de navegacion y sus etiquetas*/
+    float:right;
+    margin-top: -75px;
+    margin-right: 150px;
+   
+    
+}
+
+
+header nav a {
+    display:inline-block;
+    text-decoration: none;
+    color:white;
+    margin-left: 30px;
+    
+}
+
+header nav span {
+    margin-left: 40px;
+    color:white;
+    border:1px solid #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+a:hover, span:hover{
+    color:#FF00BF
+}
+
+#imgInit{                    /*Configuro imagen de fondo primera seccion*/
+    min-height: 100%;
+    min-width: 100%;
+    height: auto;
+    width: auto;
+    max-width: 100%;
+    top: 50%;
+    margin-bottom: -110px;
+    
+}
+/*Doy estilo al formulario*/
+form{
+    position:absolute;
+    top:120px;
+    left:760px;
+    width: 30%;
+    height: 44%;
+    padding: 64px;
+    margin top:100px;
+    background-color: #fff;
+   
+    
+}
+
+form h1{
+    color:#400C86;
+    font-size: 40px;
+}
+
+form h3{
+    color:#400C86;
+    font-size: 12px;
+}
+
+hr{
+    margin-bottom: 12px;
+    width: 100%;
+    color:purple;
+}
+/*Estilizo los input, indico caracteristicas en cada uno a traves de un selector especifico*/
+input {
+    margin-bottom: 20px;
+    width: 35%;
+    box-sizing: border-box;
+}
+   
+input[type="button"]{
+    background-color: #FF00BF;
+    color:white;
+    border:#FF00BF;
+    border-radius: 10px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+input[type="tel"]{
+    border:none;
+    padding:10px;
+    margin bottom:0;
+    color: #bfc7d9;   
+    font-size: 16px;
+    line-height: 1.5;
+}
+/*color de fondo con gradiente*/
+.middle {
+        position: relative;
+        width: 100%;
+        height: auto;
+       background: linear-gradient(0deg,#39136A, #740489);
+       padding-top: 80px;
+       padding-bottom: 100px;
+       color:white;
+       
+} 
+    
+.middle img{ 
+     position: absolute;
+     width:450px;
+     left: 700px;
+     bottom: 60px;
+}
+
+.middle h3{
+    font-size: 25px;
+    padding-left: 130px;
+    font-weight: 500;
+    
+}
+
+.middle p{
+    font-size: 13px;
+    padding-left: 130px;
+}
+
+.phrase1{
+    margin-bottom: 60px;
+}
+ .phrase2, .phrase3{
+     margin-top: 70px;
+}
+/*Fijo caracteristicas comunes a las secciones*/
+.under,.penultimate,.ultimate{
+    background-color: white;
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding-bottom: 100px;
+}
+/*Fijo caracteristicas comunes y partivulares a los 
+videos y textos de las secciones*/
+.video1,.video2,.video3{
+      display:block;
+      position: absolute;
+      border-top: 1px solid black;
+      margin-top: -3px;
+}
+/*ajusto el texto de las secciones*/
+.phrase4 h3,.phrase5 h3,.phrase6 h3{
+    font-size: 25px;
+    margin-bottom: 2px;
+}
+
+.phrase4 p,.phrase5 p,.phrase6 p{
+    font-size: 13px;
+}
+
+.phrase4,.phrase5,.phrase6{
+    
+    position:absolute;
+}
+
+.phrase4{
+    padding-left: 80px;
+}
+
+.phrase5{
+    left:900px;
+    top:400px;
+    padding-right: 40px;
+    
+}
+
+.phrase6{
+    top:800px;
+    padding-left: 80px;
+}
+
+.video1{
+    
+    left:430px;
+    top:1px;
+
+}
+.video2{
+    top:381px;
+    
+}
+
+.video3{
+    top: 755px;
+    left: 425px;
+    
+}
+/*estilizamos el footer*/
+.listcontainer{
+    position:relative;
+    padding-left: 150px;
+    padding-top: 70px;
+}
+
+.foo{
+    
+    position: absolute;
+    width: 100%;
+    height: auto;
+    background:#373649; 
+    color: #fff;
+    top:2500px;
+    padding-bottom: 200px;
+    margin-top:130px;
+}
+
+
+.foo ul{
+    list-style: none;
+    line-height: 50px;
+}
+
+.list2{
+    position: absolute;
+    left:400px;
+    top: 70px;
+}
+
+.list3{
+    position: absolute; 
+    left: 680px;
+    top:70px;
+   
+}
+
