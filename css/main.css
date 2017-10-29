@@ -189,6 +189,7 @@ videos y textos de las secciones*/
 }
 
 .phrase4{
+    padding-top: 25px;
     padding-left: 80px;
 }
 
@@ -206,7 +207,7 @@ videos y textos de las secciones*/
 
 .video1{
     
-    left:430px;
+    left:445px;
     top:1px;
 
 }
@@ -217,10 +218,12 @@ videos y textos de las secciones*/
 
 .video3{
     top: 755px;
-    left: 425px;
+    left: 445px;
     
 }
 /*estilizamos el footer*/
+
+/*comienzo dando estilo a las listas*/
 .listcontainer{
     position:relative;
     padding-left: 150px;
@@ -236,7 +239,7 @@ videos y textos de las secciones*/
     color: #fff;
     top:2500px;
     padding-bottom: 200px;
-    margin-top:130px;
+    margin-top:160px;
 }
 
 
@@ -255,6 +258,52 @@ videos y textos de las secciones*/
     position: absolute; 
     left: 680px;
     top:70px;
-   
+}
+
+hr{
+    width:720px ;
+    margin-top: 150px;
+    margin-left: 150px;
+    margin-bottom: 50px;
+}
+ /*frase mas distal*/
+.finalfoo{
+    margin-left: 380px;
+}
+
+/* Doy posicion y ajusto tamaño a las imagenes del pie de página*/
+.fooimage1{
+    position:absolute;
+    top:65px;
+    left:900px;
+}
+
+.fooimage2 img{
+    position:absolute;
+    top:140px;
+    left:900px;
+    width: 135px;
+   height: 40px;
+}
+
+.fooimage3 img{
+    position:absolute;
+    left: 900px;
+    bottom: 485px;
+    width: 135px;
+    height: 40px;
+}
+/*Indico que cuando pase el cursor por los h4 de las listas, estos,
+se subrayen y la letra sea de color blanco*/
+.list1 h4:hover,.list2 h4:hover,.list3 h4:hover{
+    text-decoration: underline;
+    color:white;
+    cursor:pointer;
+}
+/*Indico que cuando pase el cursor por los li de las listas, la
+ letra de estos, sea de color morado*/
+.list1 li:hover,.list2 li:hover,.list3 li:hover{
+    color: purple;
+    cursor: pointer;
 }
 
