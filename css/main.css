@@ -1,59 +1,58 @@
-*{
-    margin:0;
-    padding:0;
-}               /*quito los margenes por defecto que entrega el navegador*/
-                        
-body{        /*Agrego fuente quese utilizara en todo el documento*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    
     font-family: 'Montserrat', sans-serif;
 }
 
-/* Doy posicion al header para que quede fijo
-aplico fondo transparente para que quede igual
-a la imagen de fondo*/
-header {                     
+header {
     position: fixed;
-    width:100% ;
-    height:auto;
+    width: 100%;
+    height: auto;
     background: transparent;
-    z-index:3 ;
+    z-index: 3;
 }
-/*ajusto tamano del logo*/
-.logo img{ 
-    width:64px;
-    height:44.8px;
+
+.logo img {
+    width: 64px;
+    height: 44.8px;
     margin-left: 50px;
-    padding: 40px;  
+    padding: 40px;
 }
- 
-header nav{               /*Doy caracteristicas a la barra
-                            de navegacion y sus etiquetas*/
-    float:right;
+
+header nav {
+    
+    float: right;
     margin-top: -75px;
     margin-right: 150px;
 }
 
-
 header nav a {
-    display:inline-block;
+    display: inline-block;
     text-decoration: none;
-    color:white;
+    color: white;
     margin-left: 30px;
-    
 }
 
 header nav span {
     margin-left: 40px;
-    color:white;
-    border:1px solid #fff;
+    color: white;
+    border: 1px solid #fff;
     padding: 10px;
     border-radius: 10px;
 }
 
-a:hover, span:hover{
-    color:#FF00BF
+a:hover, span:hover {
+    color: #FF00BF
 }
 
-#imgInit{                    /*Configuro imagen de fondo primera seccion*/
+/*Configuro imagen de fondo primera seccion*/
+
+#imgInit {
+
     min-height: 100%;
     min-width: 100%;
     height: auto;
@@ -61,268 +60,269 @@ a:hover, span:hover{
     max-width: 100%;
     top: 50%;
     margin-bottom: -110px;
-    
 }
+
 /*Doy estilo al formulario*/
-form{
-    position:absolute;
-    top:120px;
-    left:771px;
+
+form {
+    position: absolute;
+    top: 120px;
+    left: 771px;
     width: 30%;
     height: 44%;
     padding: 64px;
-    margin top:100px;
+    margin-top: 100px;
     background-color: #fff;
 }
 
-form h1{
-    color:#400C86;
+form h1 {
+    color: #400C86;
     font-size: 40px;
 }
 
-form h3{
-    color:#400C86;
+form h3 {
+    color: #400C86;
     font-size: 12px;
 }
 
-form h4{
+form h4 {
     text-decoration: underline;
-    opacity:0.5;
+    opacity: 0.5;
     margin-left: 210px;
     margin-top: 20px;
 }
 
-form h6{
-    opacity:0.5;
+form h6 {
+    opacity: 0.5;
     margin-top: 50px;
     line-height: 2.5;
 }
 
-form hr{
-    position:absolute;
-    bottom:150px;
-    width:420px;
+form hr {
+    position: absolute;
+    bottom: 150px;
+    width: 420px;
     right: 25px;
-    border:0.5px solid purple;
-
-    font-weight:bold;
+    border: 0.5px solid purple;
+    font-weight: bold;
 }
-/*Estilizo los input, indico caracteristicas en cada uno a traves de un selector especifico*/
+
+/*Estilizo los input, indico caracteristicas en cada uno 
+a traves de un selector especifico*/
+
 input {
     margin-bottom: 20px;
     width: 35%;
     box-sizing: border-box;
 }
-   
-input[type="button"]{
-    position:absolute;
-    top:250px;
+
+input[type="button"] {
+    position: absolute;
+    top: 250px;
     right: 270px;
     background-color: #FF00BF;
-    color:white;
-    border:#FF00BF;
+    color: white;
+    border: #FF00BF;
     border-radius: 10px;
     padding: 20px;
     cursor: pointer;
 }
 
-input[type="tel"]{
-    border:none;
-    padding:10px;
-    margin bottom:0;
-    margin-top:10px;
-    color: #bfc7d9;   
+input[type="tel"] {
+    border: none;
+    padding: 10px;
+    margin-bottom: 0;
+    margin-top: 10px;
+    color: #bfc7d9;
     font-size: 16px;
     line-height: 1.5;
-
 }
+
 /*color de fondo con gradiente*/
+
 .middle {
-        position: relative;
-        width: 100%;
-        height: auto;
-       background: linear-gradient(0deg,#39136A, #740489);
-       padding-top: 80px;
-       padding-bottom: 100px;
-       color:white;
-} 
-    
-.middle img{ 
-     position: absolute;
-     width:450px;
-     left: 700px;
-     bottom: 60px;
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: linear-gradient(0deg, #39136A, #740489);
+    padding-top: 80px;
+    padding-bottom: 100px;
+    color: white;
 }
 
-.middle h3{
+.middle img {
+    position: absolute;
+    width: 450px;
+    left: 700px;
+    bottom: 60px;
+}
+
+.middle h3 {
     font-size: 25px;
     padding-left: 130px;
     font-weight: 500;
-    
 }
 
-.middle p{
+.middle p {
     font-size: 13px;
     padding-left: 130px;
 }
 
-.phrase1{
+.phrase1 {
     margin-bottom: 60px;
 }
- .phrase2, .phrase3{
-     margin-top: 70px;
-}
-/*Fijo caracteristicas comunes a las secciones*/
 
+.phrase2, .phrase3 {
+    margin-top: 70px;
 }
-/*Fijo caracteristicas comunes y partivulares a los 
+
+
+/*Fijo caracteristicas comunes y particulares a los 
 videos y textos de las secciones*/
-.video1,.video2,.video3{
-      display:block;
-      position: absolute;
-      border-top: 1px solid black;
-      margin-top: -3px;
+
+.video1, .video2, .video3 {
+    display: block;
+    position: absolute;
+    border-top: 1px solid black;
+    margin-top: -3px;
 }
 
-.video1{
-    margin-left: 450px;
+.video1 {
+
+    margin-left: 443px;
 }
 
-.video3{
-    margin-left: 450px;
+.view1{
+    margin-top: 0.1em;
+    margin-left:0.2em;
 }
+
+.view2{
+    margin-top:29.58em;
+}
+
+.view3{
+    margin-top: 59.4em;
+}
+
+.video3 {
+    margin-left: 441px;
+}
+
 /*ajusto el texto de las secciones*/
-.phrase4 h3,.phrase5 h3,.phrase6 h3{
+
+.phrase4 h3, .phrase5 h3, .phrase6 h3 {
     font-size: 25px;
     margin-bottom: 2px;
 }
 
-.phrase4 p,.phrase5 p,.phrase6 p{
+.phrase4 p, .phrase5 p, .phrase6 p {
     font-size: 13px;
 }
 
-.phrase4,.phrase5,.phrase6{
-    
-    position:absolute;
+.phrase4, .phrase5, .phrase6 {
+    position: absolute;
 }
 
-.phrase4{
+.phrase4 {
     top: 1235px;
     bottom: 200px;
     padding-top: 25px;
     padding-left: 80px;
 }
 
-.phrase5{
-    left:900px;
-    top:1750px;
+.phrase5 {
+    left: 900px;
+    top: 1750px;
     padding-right: 40px;
-    
 }
 
-.phrase6{
-    top:2220px;
+.phrase6 {
+    top: 2220px;
     padding-left: 80px;
 }
 
-.video1{
-    
-    left:445px;
-    top:1px;
+/*estilizando footer*/
 
-}
-.video2{
-    top:381px;
-    
-}
-
-.video3{
-    top: 650px;
-    left: 445px;
-    
-}
-/*estilizamos el footer*/
-
-/*comienzo dando estilo a las listas*/
-.listcontainer{
-    position:relative;
+.listcontainer {
+    position: relative;
     padding-left: 150px;
     padding-top: 70px;
 }
 
-.foo{
-    
+.foo {
     position: absolute;
     width: 100%;
     height: auto;
-    background:#373649; 
+    background: #373649;
     color: #fff;
-    top:2500px;
-    padding-bottom: 200px;
-    margin-top:160px;
+    top: 2500px;
+    margin-top: 150px;
 }
 
-
-.foo ul{
+.foo ul {
     list-style: none;
     line-height: 50px;
 }
 
-.list2{
+.list2 {
     position: absolute;
-    left:400px;
+    left: 400px;
     top: 70px;
 }
 
-.list3{
-    position: absolute; 
+.list3 {
+    position: absolute;
     left: 680px;
-    top:70px;
+    top: 70px;
 }
 
-hr{
-    width:720px ;
+hr {
+    width: 720px;
     margin-top: 150px;
     margin-left: 150px;
     margin-bottom: 50px;
 }
- /*frase mas distal*/
-.finalfoo{
+
+.finalfoo {
     margin-left: 380px;
 }
 
 /* Doy posicion y ajusto tamaño a las imagenes del pie de página*/
-.fooimage1{
-    position:absolute;
-    top:65px;
-    left:900px;
+
+.fooimage1 {
+    position: absolute;
+    top: 65px;
+    left: 900px;
 }
 
-.fooimage2 img{
-    position:absolute;
-    top:140px;
-    left:900px;
+.fooimage2 img {
+    position: absolute;
+    top: 140px;
+    left: 900px;
     width: 135px;
-   height: 40px;
+    height: 40px;
 }
 
-.fooimage3 img{
-    position:absolute;
+.fooimage3 img {
+    position: absolute;
     left: 900px;
     bottom: 485px;
     width: 135px;
     height: 40px;
 }
-/*Indico que cuando pase el cursor por los h4 de las listas, estos,
-se subrayen y la letra sea de color blanco*/
-.list1 h4:hover,.list2 h4:hover,.list3 h4:hover{
+
+.list1 h4:hover,
+.list2 h4:hover,
+.list3 h4:hover {
     text-decoration: underline;
-    color:white;
-    cursor:pointer;
+    color: white;
+    cursor: pointer;
 }
-/*Indico que cuando pase el cursor por los li de las listas, la
- letra de estos, sea de color rosado*/
-.list1 li:hover,.list2 li:hover,.list3 li:hover{
+
+.list1 li:hover,
+.list2 li:hover,
+.list3 li:hover {
     color: #FF00BF;
     cursor: pointer;
 }
