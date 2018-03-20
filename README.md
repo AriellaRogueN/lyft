@@ -1,5 +1,5 @@
-#Maqueta página web Lyft
-###Esta es una maqueta basada en el ejemplo proporcionado por los profesores de Laboratoria que constituye la segunda parte del reto de códigos. Para completar este reto, se nos  entregó este repositorio con todos los recursos necesarios.
+# Maqueta página web Lyft
+### Esta es una maqueta basada en el ejemplo proporcionado por los profesores de Laboratoria que constituye la segunda parte del reto de códigos. Para completar este reto, se nos  entregó este repositorio con todos los recursos necesarios.
 ## Flujo de Trabajo
 #### 1. Creacion de arquitectura HTML básica, añadiendo códigos que permiten la elaboración de la página web solicitada.
 - ##### Head.
